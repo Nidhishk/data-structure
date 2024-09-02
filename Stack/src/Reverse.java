@@ -12,13 +12,13 @@ public class Reverse {
         }
     }
 
-    private static void reveseStack(Stack<Integer> stack) {
+    private static void reverseStack(Stack<Integer> stack) {
         if (stack.isEmpty()) {
             return;
         }
 
         int top = stack.pop();
-        reveseStack(stack);
+        reverseStack(stack);
         pushElementAtBottom(top, stack);
     }
 
