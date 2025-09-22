@@ -2,6 +2,8 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class HashMapCode {
+    private static ArrayList<String> keys;
+
     public static void main(String[] args) {
         HashMap<String, Integer> hashMap = new HashMap<>();
         hashMap.put("India", 712);

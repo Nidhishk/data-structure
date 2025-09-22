@@ -1,3 +1,10 @@
+/**
+ * 1
+ * 0 1
+ * 1 0 1
+ * 0 1 0 1
+ * 1 0 1 0 1
+ */
 public class ZeroOneTriangle {
     public static void main(String[] args) {
         int n = 5;

@@ -34,13 +34,13 @@ public class Pallindrome {
 
     private static Node findMiddle(Node head) {
         Node hare = head;
-        Node tutle = head;
+        Node turtle = head;
 
         while (hare.next != null && hare.next.next != null) {
             hare = hare.next.next;
-            tutle = tutle.next;
+            turtle = turtle.next;
         }
-        return tutle;
+        return turtle;
     }
 
     private static Node reverseNode(Node head) {
