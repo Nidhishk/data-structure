@@ -11,16 +11,16 @@ public class Pallindrome {
     }
 
     private static boolean pallindrome(String s) {
-        return isPallindromeHelper(0,s.length()-1,s);
+        return isPallindromeHelper(0, s.length() - 1, s);
     }
 
     private static boolean isPallindromeHelper(int l, int r, String s) {
-        if(l>=r)
+        if (l >= r)
             return true;
 
-        if(s.charAt(l) == s.charAt(r)) {
-            return isPallindromeHelper(l+1,r-1,s);
-        } else{
+        if (s.charAt(l) == s.charAt(r)) {
+            return isPallindromeHelper(l + 1, r - 1, s);
+        } else {
             return false;
         }
     }

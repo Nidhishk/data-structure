@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class MinSumSubarray {
     public static void main(String[] args) {
         int a[] = {1, 2, 5, 6, 7, 2};
-        int k = 7;
+        int k = 8;
         Arrays.sort(a);
         System.out.println(minSumSubarray(a, k));
     }
